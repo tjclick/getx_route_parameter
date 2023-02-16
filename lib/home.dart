@@ -17,12 +17,6 @@ class Home extends StatelessWidget {
           children: [
             ElevatedButton(
               onPressed: () {
-                Get.toNamed("/");
-              }, // 버튼이 눌릴 때의 동작을 정의합니다.
-              child: Text('Home'), // 버튼의 내용을 지정합니다.
-            ),
-            ElevatedButton(
-              onPressed: () {
                 Get.toNamed("/args", arguments: "테스트값 01");
               }, // 버튼이 눌릴 때의 동작을 정의합니다.
               child: Text('Page Arguments'), // 버튼의 내용을 지정합니다.
